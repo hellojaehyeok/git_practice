@@ -2,6 +2,22 @@
 
 git 연습
 
+### git alias
+
+단축키 설정
+
+```shell
+vim ~/.gitconfig
+
+----
+
+[alias]
+        s = status -s
+        br = branch
+        co = checkout
+        ci = commit
+```
+
 ### clone
 
 ```shell
